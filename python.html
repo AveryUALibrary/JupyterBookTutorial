@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Setup &#8212; Jupyter Book Guide</title>
+    <title>Python installation &#8212; Jupyter Book Tutorial</title>
     
   <link href="_static/css/theme.css" rel="stylesheet" />
   <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -51,6 +51,8 @@
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Anaconda installation" href="anaconda.html" />
+    <link rel="prev" title="Welcome to the Jupyter Book Tutorial" href="introduction.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -76,7 +78,7 @@
       <img src="_static/Logo.svg" class="logo" alt="logo">
       
       
-      <h1 class="site-logo" id="site-title">Jupyter Book Guide</h1>
+      <h1 class="site-logo" id="site-title">Jupyter Book Tutorial</h1>
       
     </a>
 </div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
@@ -96,9 +98,9 @@
   installations
  </span>
 </p>
-<ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="python.html">
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Python installation
   </a>
  </li>
@@ -153,7 +155,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="_sources/setup.md"><button type="button"
+        <a class="dropdown-buttons" href="_sources/python.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -169,11 +171,11 @@
         aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
     <div class="dropdown-buttons sourcebuttons">
         <a class="repository-button"
-            href="https://github.com/AveryUALibrary/JupyterBooksGuide"><button type="button" class="btn btn-secondary topbarbtn"
+            href="https://github.com/AveryUALibrary/JupyterBookTutorial"><button type="button" class="btn btn-secondary topbarbtn"
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/AveryUALibrary/JupyterBooksGuide/issues/new?title=Issue%20on%20page%20%2Fsetup.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/AveryUALibrary/JupyterBookTutorial/issues/new?title=Issue%20on%20page%20%2Fpython.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
@@ -200,38 +202,14 @@
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#python-installation">
-   Python installation
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#check-if-python-is-installed">
-     Check if python is installed
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#python-download">
-     Python Download
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#anaconda">
-   Anaconda
+  <a class="reference internal nav-link" href="#check-if-python-is-installed">
+   Check if python is installed
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#pycharm">
-   Pycharm
+  <a class="reference internal nav-link" href="#python-download">
+   Python Download
   </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#pycharm-download">
-     Pycharm Download
-    </a>
-   </li>
-  </ul>
  </li>
 </ul>
 
@@ -244,13 +222,11 @@
         
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="setup">
-<h1>Setup<a class="headerlink" href="#setup" title="Permalink to this headline">¶</a></h1>
+  <div class="tex2jax_ignore mathjax_ignore section" id="python-installation">
+<span id="section-label"></span><h1>Python installation<a class="headerlink" href="#python-installation" title="Permalink to this headline">¶</a></h1>
 <hr class="docutils" />
-<div class="section" id="python-installation">
-<span id="section-label"></span><h2>Python installation<a class="headerlink" href="#python-installation" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="check-if-python-is-installed">
-<span id="id1"></span><h3>Check if python is installed<a class="headerlink" href="#check-if-python-is-installed" title="Permalink to this headline">¶</a></h3>
+<span id="id1"></span><h2>Check if python is installed<a class="headerlink" href="#check-if-python-is-installed" title="Permalink to this headline">¶</a></h2>
 <p>Please check to make sure you do not have python installed.<br />
 To do this:</p>
 <ol class="simple">
@@ -279,27 +255,10 @@ To do this:</p>
 <p>If a python version is outputted, then you already have it installed. If not, continue to the next section.</p>
 </div>
 <div class="section" id="python-download">
-<span id="id2"></span><h3>Python Download<a class="headerlink" href="#python-download" title="Permalink to this headline">¶</a></h3>
+<span id="id2"></span><h2>Python Download<a class="headerlink" href="#python-download" title="Permalink to this headline">¶</a></h2>
 <p>In order to install python, you will need head to the <a href="https://www.python.org/downloads/" target="_blank">python website</a>. Then click on the download button.</p>
 <a class="bg-primary mb-1 reference internal image-reference" href="_images/pythonwebsite.png"><img alt="python website" class="bg-primary mb-1 align-center" src="_images/pythonwebsite.png" style="width: 500px;" /></a>
 <p>Once the file is installed on your computer, you want to double-click it. Then select Customize Installation and proceed. Click the button that says add path.</p>
-</div>
-</div>
-<div class="section" id="anaconda">
-<span id="id3"></span><h2>Anaconda<a class="headerlink" href="#anaconda" title="Permalink to this headline">¶</a></h2>
-<p>For the rest of the Python and Anaconda installation, please visit <a href="https://medium.com/co-learning-lounge/how-to-download-install-python-on-windows-2021-44a707994013" target="_blank">Shouhaddo Paul &amp; Yogesh Kothiya guide</a></p>
-</div>
-<div class="section" id="pycharm">
-<span id="id4"></span><h2>Pycharm<a class="headerlink" href="#pycharm" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="pycharm-download">
-<span id="id5"></span><h3>Pycharm Download<a class="headerlink" href="#pycharm-download" title="Permalink to this headline">¶</a></h3>
-<p>First, you are gonna want to head to the <a href="https://www.jetbrains.com/pycharm/download/#section=windows" target="_blank"> Pycharm website</a> and download the community build.</p>
-<a class="bg-primary mb-1 reference internal image-reference" href="_images/pycharmwebsite.jpg"><img alt="pycharm website" class="bg-primary mb-1 align-center" src="_images/pycharmwebsite.jpg" style="width: 500px;" /></a>
-<p>double-click the download once it is done. <br />
-Keep hitting next until you reach the configuration screen.</p>
-<a class="bg-primary mb-1 reference internal image-reference" href="_images/pycharmconfig.PNG"><img alt="pycharm config" class="bg-primary mb-1 align-center" src="_images/pycharmconfig.PNG" style="width: 500px;" /></a>
-<p>Go ahead and finish the install, then open Pycharm once it is finished.</p>
-</div>
 </div>
 </div>
 
@@ -332,6 +291,24 @@ Keep hitting next until you reach the configuration screen.</p>
 
 <div class='prev-next-bottom'>
     
+    <div id="prev">
+        <a class="left-prev" href="introduction.html" title="previous page">
+            <i class="prevnext-label fas fa-angle-left"></i>
+            <div class="prevnext-info">
+                <p class="prevnext-label">previous</p>
+                <p class="prevnext-title">Welcome to the Jupyter Book Tutorial</p>
+            </div>
+        </a>
+    </div>
+     <div id="next">
+        <a class="right-next" href="anaconda.html" title="next page">
+            <div class="prevnext-info">
+                <p class="prevnext-label">next</p>
+                <p class="prevnext-title">Anaconda installation</p>
+            </div>
+            <i class="prevnext-label fas fa-angle-right"></i>
+        </a>
+     </div>
 
 </div>
         
