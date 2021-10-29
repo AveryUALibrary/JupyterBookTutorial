@@ -1,28 +1,27 @@
-# Book settings
-# Learn more at https://jupyterbook.org/customize/config.html
 
 title: Jupyter Book Tutorial
 author: Avery Fernandez
 logo: Logo.svg
 
-# Force re-execution of notebooks on each build.
-# See https://jupyterbook.org/content/execute.html
+description: >-
+  A guide on how to get jupyter books running and how to use it.
+
+html:
+  home_page_in_navbar         : false
+
 execute:
   execute_notebooks: force
 
-# Define the name of the latex output file for PDF builds
 latex:
   latex_documents:
     targetname: book.tex
 
-# Add a bibtex file so that we can create citations
 bibtex_bibfiles:
   - references.bib
 
-# Information about where the book exists on the web
+
 repository:
-  url: https://github.com/executablebooks/jupyter-book-tutorial  # Online location of your book
-  path_to_book: docs  # Optional path to your book, relative to the repository root
+  url: https://github.com/AveryUALibrary/JupyterBookTutorial  # Online location of your book
   branch: master  # Which branch of the repository should be used when creating links (optional)
 
 # Add GitHub buttons to your book
