@@ -1,0 +1,17 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: introduction
+parts:
+  - caption: Installation
+    chapters:
+    - file: setup
+  - caption: Graphing
+    chapters:
+    - file: data
+  - caption: Extra
+    chapters:
+    - file: markdown
+      sections:
+      - file: notebooks
