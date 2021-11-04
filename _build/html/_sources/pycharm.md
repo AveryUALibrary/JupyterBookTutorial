@@ -3,6 +3,8 @@
 
 ---
 
+If you already have this installed, please head to [Pip](pip.md)
+
 (section-label)=
 ## Pycharm Download
 
@@ -22,3 +24,5 @@ Keep hitting next until you reach the configuration screen.
 :align: center
 ```
 Go ahead and finish the install, then open Pycharm once it is finished.
+
+**Now you are done!!!**

@@ -11,4 +11,9 @@ parts:
     - file: pycharm
     - file: pip
     - file: git
-    - file: jupyterbook
+  - caption: starting first jupyter book
+    chapters:
+    - file: jupyterstart
+  - caption: background info
+    chapters:
+    - file: references

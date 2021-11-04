@@ -2,6 +2,7 @@
 # Python installation
 
 ---
+If you already have this installed, please head to [Anaconda](anaconda.md)
 
 (section-label)=
 ## Check if python is installed
@@ -55,3 +56,5 @@ In order to install python, you will need head to the <a href="https://www.pytho
 :align: center
 ```
 Once the file is installed on your computer, you want to double-click it. Then select Customize Installation and proceed. Click the button that says add path.
+
+**Now you are done!!!**
