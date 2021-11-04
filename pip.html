@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Anaconda installation &#8212; Jupyter Book Tutorial</title>
+    <title>PIP Installation &#8212; Jupyter Book Tutorial</title>
     
   <link href="_static/css/theme.css" rel="stylesheet" />
   <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -51,8 +51,8 @@
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Pycharm installation" href="pycharm.html" />
-    <link rel="prev" title="Python installation" href="python.html" />
+    <link rel="next" title="GIT installation" href="git.html" />
+    <link rel="prev" title="Pycharm installation" href="pycharm.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -104,8 +104,8 @@
    Python installation
   </a>
  </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
+ <li class="toctree-l1">
+  <a class="reference internal" href="anaconda.html">
    Anaconda installation
   </a>
  </li>
@@ -114,8 +114,8 @@
    Pycharm installation
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="pip.html">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    PIP Installation
   </a>
  </li>
@@ -189,7 +189,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="_sources/anaconda.md"><button type="button"
+        <a class="dropdown-buttons" href="_sources/pip.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -209,7 +209,7 @@
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/AveryUALibrary/JupyterBookTutorial/issues/new?title=Issue%20on%20page%20%2Fanaconda.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/AveryUALibrary/JupyterBookTutorial/issues/new?title=Issue%20on%20page%20%2Fpip.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
@@ -236,8 +236,18 @@
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#anaconda-download">
-   Anaconda Download
+  <a class="reference internal nav-link" href="#check-for-pip-installation">
+   Check for PIP Installation
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#installing-pip">
+   Installing PIP
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#verify-pip-install">
+   Verify PIP Install
   </a>
  </li>
 </ul>
@@ -251,17 +261,60 @@
         
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="anaconda-installation">
-<span id="section-label"></span><h1>Anaconda installation<a class="headerlink" href="#anaconda-installation" title="Permalink to this headline">¶</a></h1>
+  <div class="tex2jax_ignore mathjax_ignore section" id="pip-installation">
+<span id="section-label"></span><h1>PIP Installation<a class="headerlink" href="#pip-installation" title="Permalink to this headline">¶</a></h1>
 <hr class="docutils" />
-<p>If you already have this installed, please head to <a class="reference internal" href="pycharm.html"><span class="doc std std-doc">Pycharm</span></a></p>
-<div class="section" id="anaconda-download">
-<span id="id1"></span><h2>Anaconda Download<a class="headerlink" href="#anaconda-download" title="Permalink to this headline">¶</a></h2>
-<p>First, you are gonna head to the <a href="https://www.anaconda.com/products/individual" target="_blank"> Anaconda website</a> and click the Download Button</p>
-<a class="bg-primary mb-1 reference internal image-reference" href="_images/anacondawebsite.png"><img alt="anaconda download" class="bg-primary mb-1 align-center" src="_images/anacondawebsite.png" style="width: 500px;" /></a>
-<p>After it is installed double-click it to start the installation.</p>
-<p>Just keep hitting I Agree, Next, and Finish.</p>
-<p>Then Anaconda should be installed</p>
+<p>If you already have this installed, please head to <a class="reference internal" href="git.html"><span class="doc std std-doc">Git</span></a></p>
+<div class="section" id="check-for-pip-installation">
+<span id="id1"></span><h2>Check for PIP Installation<a class="headerlink" href="#check-for-pip-installation" title="Permalink to this headline">¶</a></h2>
+<p>Before we install <strong>PIP</strong>, let’s make sure you don’t already have it installed.</p>
+<ol>
+<li><p>Open up the command prompt</p>
+<ol>
+<li><p>press the windows ⊞ key</p></li>
+<li><p>Type cmd</p>
+<ol>
+<li><a class="bg-primary mb-1 reference internal image-reference" href="_images/cmdsearch.png"><img alt="search" class="bg-primary mb-1 align-center" src="_images/cmdsearch.png" style="width: 500px;" /></a>
+</li>
+</ol>
+</li>
+<li><p>Press Enter</p></li>
+</ol>
+</li>
+<li><p>Type into the command prompt
+1)</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">help</span>
+</pre></div>
+</div>
+</li>
+<li><p>If it outputs a list of commands, then you already have <strong>PIP</strong> installed</p></li>
+</ol>
+</div>
+<div class="section" id="installing-pip">
+<h2>Installing PIP<a class="headerlink" href="#installing-pip" title="Permalink to this headline">¶</a></h2>
+<ol class="simple">
+<li><p>You are gonna reopen command prompt, as shown above.</p></li>
+<li><p>Type in:</p></li>
+</ol>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">curl</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">bootstrap</span><span class="o">.</span><span class="n">pypa</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">get</span><span class="o">-</span><span class="n">pip</span><span class="o">.</span><span class="n">py</span> <span class="o">-</span><span class="n">o</span> <span class="n">get</span><span class="o">-</span><span class="n">pip</span><span class="o">.</span><span class="n">py</span>
+</pre></div>
+</div>
+<a class="bg-primary mb-1 reference internal image-reference" href="_images/pipcurl.PNG"><img alt="curl of pip" class="bg-primary mb-1 align-center" src="_images/pipcurl.PNG" style="width: 500px;" /></a>
+<ol class="simple">
+<li><p>To install the <strong>PIP</strong> file, type in:</p></li>
+</ol>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">python</span> <span class="n">get</span><span class="o">-</span><span class="n">pip</span><span class="o">.</span><span class="n">py</span>
+</pre></div>
+</div>
+<a class="bg-primary mb-1 reference internal image-reference" href="_images/pipinstall.PNG"><img alt="pip installation" class="bg-primary mb-1 align-center" src="_images/pipinstall.PNG" style="width: 500px;" /></a>
+</div>
+<div class="section" id="verify-pip-install">
+<h2>Verify PIP Install<a class="headerlink" href="#verify-pip-install" title="Permalink to this headline">¶</a></h2>
+<p>Type the following into the command prompt:</p>
+<div class="highlight-commandline notranslate"><div class="highlight"><pre><span></span>pip help
+</pre></div>
+</div>
+<a class="bg-primary mb-1 reference internal image-reference" href="_images/piphelp.PNG"><img alt="pip help output" class="bg-primary mb-1 align-center" src="_images/piphelp.PNG" style="width: 500px;" /></a>
 <p><strong>Now you are done!!!</strong></p>
 </div>
 </div>
@@ -296,19 +349,19 @@
 <div class='prev-next-bottom'>
     
     <div id="prev">
-        <a class="left-prev" href="python.html" title="previous page">
+        <a class="left-prev" href="pycharm.html" title="previous page">
             <i class="prevnext-label fas fa-angle-left"></i>
             <div class="prevnext-info">
                 <p class="prevnext-label">previous</p>
-                <p class="prevnext-title">Python installation</p>
+                <p class="prevnext-title">Pycharm installation</p>
             </div>
         </a>
     </div>
      <div id="next">
-        <a class="right-next" href="pycharm.html" title="next page">
+        <a class="right-next" href="git.html" title="next page">
             <div class="prevnext-info">
                 <p class="prevnext-label">next</p>
-                <p class="prevnext-title">Pycharm installation</p>
+                <p class="prevnext-title">GIT installation</p>
             </div>
             <i class="prevnext-label fas fa-angle-right"></i>
         </a>
